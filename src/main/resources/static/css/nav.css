@@ -1,0 +1,58 @@
+/* Navbar container */
+.navbar {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para destacar la navbar */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+    color: #555; /* Color gris oscuro */
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Cambia a azul cuando pasas el ratón */
+    text-decoration: underline; /* Subraya el enlace */
+}
+
+/* Navbar brand (logo) */
+.navbar-brand img {
+    border-radius: 50%; /* Redondea los bordes del logo */
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1); /* Efecto de zoom al pasar el ratón */
+}
+
+
+
+/* Navbar background */
+.navbar-light.bg-light {
+    background-color: #f8f9fa !important; /* Color de fondo claro */
+}
+
+/* Logout button */
+.navbar-nav .nav-link.logout {
+    color: #dc3545; /* Rojo para el enlace de logout */
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link.logout:hover {
+    color: #c82333; /* Rojo más oscuro al pasar el ratón */
+}
+
+/* Responsive toggler button */
+.navbar-toggler {
+    border: none; /* Sin borde en el botón de colapso */
+}
+
+.navbar-toggler-icon {
+    background-color: #007bff; /* Icono azul */
+    border-radius: 3px;
+    width: 30px;
+    height: 3px;
+    margin: 5px 0;
+}
